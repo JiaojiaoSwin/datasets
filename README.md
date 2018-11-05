@@ -23,6 +23,10 @@ Each item in the list contains a request followed by zero or more responses.
 The files may be read using the [json-io](https://github.com/jdereg/json-io) Json Reader. The following code snippet shows how the JSON files may be read in Java:
 
 ```
+import com.cedarsoftware.util.io.JsonReader;
+
+...
+
     public static final List<String[]> readJsonPairs(String msgfile)
         throws IOException
     {
