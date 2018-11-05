@@ -1,5 +1,6 @@
-# Datasets
-machine generated messages
+# Machine Generated Message Datasets
+
+This repository contains datasets of machine generated messages, including from network message traces (originally collected using WireShark) and log files.
 
 DataSet | Protocol | Files | Format | Notes
 ---|---|---|---|--
